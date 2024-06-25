@@ -1,0 +1,224 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Howdy", "Hi there", "Good morning", "Good evening", "Good afternoon"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How's it going?", "Greetings! How can I help?"]
+        },
+        {
+            "intent": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Catch you later", "See you", "Talk to you later"],
+            "responses": ["Goodbye! Have a great day!", "See you later!", "Catch you later! Take care!", "Goodbye!"]
+        },
+        {
+            "intent": "thanks",
+            "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Thank you very much", "Thanks a bunch"],
+            "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!", "My pleasure!"]
+        },
+        {
+            "intent": "name_query",
+            "patterns": ["What is your name?", "Who are you?", "Tell me your name", "May I know your name?"],
+            "responses": ["I am your friendly chatbot.", "You can call me Chatbot.", "My name is Chatbot.", "I'm Chatbot. How can I help you?"]
+        },
+        {
+            "intent": "age_query",
+            "patterns": ["How old are you?", "What is your age?", "Tell me your age"],
+            "responses": ["I'm timeless!", "I don't have an age, I'm a bot.", "Age is just a number for me!"]
+        },
+        {
+            "intent": "weather",
+            "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather?", "Is it going to rain today?"],
+            "responses": ["I'm not sure about the weather right now.", "You might want to check a weather app for that.", "I can't provide weather updates at the moment."]
+        },
+        {
+            "intent": "location_query",
+            "patterns": ["Where are you?", "Where are you located?", "Your location?"],
+            "responses": ["I exist in the digital realm.", "I'm everywhere you need me to be!", "I reside in the cloud."]
+        },
+        {
+            "intent": "bot_creator",
+            "patterns": ["Who created you?", "Who is your creator?", "Who made you?"],
+            "responses": ["I was created by a team of developers.", "A group of talented developers built me.", "I was made by my developers."]
+        },
+        {
+            "intent": "bot_purpose",
+            "patterns": ["What can you do?", "What are your functions?", "How can you help me?", "What is your purpose?"],
+            "responses": ["I can assist you with various queries and tasks.", "I'm here to help you with your questions.", "My purpose is to assist and provide information."]
+        },
+        {
+            "intent": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?", "I want to hear a joke"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "Why don’t skeletons fight each other? They don’t have the guts."]
+        },
+        {
+            "intent": "help",
+            "patterns": ["Help", "I need help", "Can you help me?", "Assist me"],
+            "responses": ["Sure, how can I assist you?", "I'm here to help! What do you need?", "How can I be of service today?"]
+        },
+        {
+            "intent": "hours_of_operation",
+            "patterns": ["What are your hours?", "When are you open?", "Operating hours", "Business hours"],
+            "responses": ["I'm available 24/7!", "I’m here to assist you anytime!", "You can reach out to me any time of the day."]
+        },
+        {
+            "intent": "services",
+            "patterns": ["What services do you offer?", "Tell me about your services", "What can you do for me?"],
+            "responses": ["I can assist with answering questions, providing information, and helping you with various tasks.", "I'm here to offer support and answer your queries.", "My services include providing information and assisting with your needs."]
+        },
+        {
+            "intent": "affirmation",
+            "patterns": ["Yes", "Sure", "Of course", "Absolutely", "Definitely"],
+            "responses": ["Great!", "Alright!", "Good to hear!", "Okay!"]
+        },
+        {
+            "intent": "negation",
+            "patterns": ["No", "Nope", "Nah", "Not really"],
+            "responses": ["Alright.", "Okay, let me know if you need anything.", "Got it.", "Okay."]
+        },
+        {
+            "intent": "time_query",
+            "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?", "Do you know the time?"],
+            "responses": ["I'm not able to provide the current time.", "You can check the time on your device.", "I suggest looking at a clock or your device for the current time."]
+        },
+        {
+            "intent": "date_query",
+            "patterns": ["What is today's date?", "Can you tell me the date?", "What's the date today?", "Do you know today's date?"],
+            "responses": ["I'm not able to provide the current date.", "You can check the date on your device.", "I suggest looking at a calendar or your device for today's date."]
+        },
+        {
+            "intent": "news",
+            "patterns": ["What's the news?", "Tell me the latest news", "Any news updates?", "Current news"],
+            "responses": ["I'm not able to provide news updates right now.", "You might want to check a news website for the latest updates.", "I can't provide news updates at the moment."]
+        },
+        {
+            "intent": "sports",
+            "patterns": ["What's the latest sports update?", "Tell me about sports", "Any sports news?", "Current sports news"],
+            "responses": ["I'm not able to provide sports updates right now.", "You might want to check a sports website for the latest updates.", "I can't provide sports updates at the moment."]
+        },
+        {
+            "intent": "personal_info",
+            "patterns": ["Tell me about yourself", "Who are you?", "What do you do?"],
+            "responses": ["I am a chatbot designed to assist you with various queries.", "I'm here to help you with your questions and tasks.", "I am an AI-powered chatbot here to assist you."]
+        },
+        {
+            "intent": "small_talk",
+            "patterns": ["How are you?", "What's up?", "How's it going?", "How's your day?"],
+            "responses": ["I'm just a bot, but I'm here to help you!", "I'm doing great, thanks for asking! How can I assist you?", "I'm here and ready to help!"]
+        },
+        {
+            "intent": "favorite_color",
+            "patterns": ["What's your favorite color?", "Do you have a favorite color?", "Tell me your favorite color"],
+            "responses": ["I like all colors, but blue is quite nice.", "I don't have a favorite color, but I think blue is calming.", "As a bot, I don't have preferences, but blue seems nice."]
+        },
+        {
+            "intent": "hobbies",
+            "patterns": ["What are your hobbies?", "Do you have any hobbies?", "Tell me your hobbies"],
+            "responses": ["I enjoy helping people and learning new things.", "As a bot, my hobby is assisting you!", "I love to chat and provide information."]
+        },
+        {
+            "intent": "favorite_food",
+            "patterns": ["What's your favorite food?", "Do you have a favorite food?", "Tell me your favorite food"],
+            "responses": ["I don't eat, but I hear pizza is delicious!", "I don't have a favorite food, but many people love pizza.", "As a bot, I don't eat, but pizza sounds great."]
+        },
+        {
+            "intent": "dream",
+            "patterns": ["Do you dream?", "Tell me about your dreams", "Do bots dream?"],
+            "responses": ["I don't dream, but I can help make your dreams come true!", "As a bot, I don't dream, but I'm here to assist you!", "I don't dream, but I can help you with your queries."]
+        },
+        {
+            "intent": "movies",
+            "patterns": ["Do you like movies?", "What's your favorite movie?", "Tell me about movies"],
+            "responses": ["I don't watch movies, but I hear Inception is great!", "I don't have a favorite movie, but Inception is popular.", "As a bot, I don't watch movies, but Inception sounds interesting."]
+        },
+        {
+            "intent": "music",
+            "patterns": ["Do you like music?", "What's your favorite song?", "Tell me about music"],
+            "responses": ["I don't listen to music, but many people love Bohemian Rhapsody.", "I don't have a favorite song, but Bohemian Rhapsody is a classic.", "As a bot, I don't listen to music, but Bohemian Rhapsody sounds great."]
+        },
+        {
+            "intent": "book_recommendation",
+            "patterns": ["Can you recommend a book?", "Tell me a good book to read", "Book recommendations"],
+            "responses": ["You should read 'To Kill a Mockingbird' by Harper Lee.", "'1984' by George Orwell is a must-read.", "I recommend 'The Great Gatsby' by F. Scott Fitzgerald."]
+        },
+        {
+            "intent": "travel",
+            "patterns": ["Where should I travel?", "Recommend a travel destination", "Tell me about travel"],
+            "responses": ["Paris is a wonderful destination!", "Consider visiting Tokyo, it's amazing!", "You should check out Bali for a relaxing vacation."]
+        },
+        {
+            "intent": "hobbies",
+            "patterns": ["What hobbies do you have?", "Tell me about your hobbies", "Do you have any hobbies?"],
+            "responses": ["I enjoy helping people with their queries.", "As a bot, my hobby is assisting you!", "I love to chat and provide information."]
+        },
+        {
+            "intent": "motivation",
+            "patterns": ["I need motivation", "Motivate me", "Give me some motivation"],
+            "responses": ["You can achieve anything you set your mind to!", "Believe in yourself and all that you are.", "Stay positive, work hard, and make it happen!"]
+        },
+        {
+            "intent": "fun_fact",
+            "patterns": ["Tell me a fun fact", "Give me an interesting fact", "Do you know any fun facts?"],
+            "responses": ["Did you know that honey never spoils?", "A day on Venus is longer than a year on Venus.", "Bananas are berries, but strawberries aren't."]
+        },
+        {
+            "intent": "workout",
+            "patterns": ["Suggest a workout", "Tell me a good workout", "Recommend a workout routine"],
+            "responses": ["Try a 30-minute run for a great cardio workout.", "How about a set of push-ups, sit-ups, and squats?", "Yoga is excellent for flexibility and relaxation."]
+        },
+        {
+            "intent": "pets",
+            "patterns": ["Do you like pets?", "What's your favorite pet?", "Tell me about pets"],
+            "responses": ["I think dogs are great companions!", "Cats are wonderful pets too.", "As a bot, I don't have pets, but I think they're amazing."]
+        },
+        {
+            "intent": "technology",
+            "patterns": ["Tell me about technology", "What's the latest in tech?", "Do you know any tech news?"],
+            "responses": ["Technology is evolving rapidly with new advancements every day.", "AI and machine learning are significant tech trends.", "You might want to check tech news websites for the latest updates."]
+        },
+        {
+            "intent": "health_tips",
+            "patterns": ["Give me health tips", "How to stay healthy?", "Tell me some health advice"],
+            "responses": ["Eat a balanced diet and exercise regularly.", "Stay hydrated and get enough sleep.", "Regular check-ups with your doctor are important."]
+        },
+        {
+            "intent": "career_advice",
+            "patterns": ["Give me career advice", "How to advance in my career?", "Tell me about career growth"],
+            "responses": ["Always be open to learning and improving your skills.", "Networking can open many opportunities.", "Set clear goals and work towards them consistently."]
+        },
+        {
+            "intent": "education",
+            "patterns": ["Tell me about education", "What's the importance of education?", "Do you know about education?"],
+            "responses": ["Education is crucial for personal and professional growth.", "It's important to stay curious and keep learning.", "Education opens up many opportunities in life."]
+        },
+        {
+            "intent": "languages",
+            "patterns": ["How many languages do you speak?", "Tell me about languages", "Do you speak multiple languages?"],
+            "responses": ["I can understand and respond in multiple languages.", "I'm designed to communicate in various languages.", "Language support depends on my training and configuration."]
+        },
+        {
+            "intent": "coding",
+            "patterns": ["Tell me about coding", "How to learn coding?", "Give me coding advice"],
+            "responses": ["Practice is key to learning coding.", "Start with basics and gradually move to advanced topics.", "There are many online resources and tutorials available."]
+        },
+        {
+            "intent": "quotes",
+            "patterns": ["Tell me a quote", "Give me a quote", "Do you know any quotes?"],
+            "responses": ["'The only limit to our realization of tomorrow is our doubts of today.' - Franklin D. Roosevelt", "'The best way to predict the future is to create it.' - Peter Drucker", "'Success usually comes to those who are too busy to be looking for it.' - Henry David Thoreau"]
+        },
+        {
+            "intent": "self_care",
+            "patterns": ["Give me self-care tips", "How to practice self-care?", "Tell me about self-care"],
+            "responses": ["Take time to relax and do things you enjoy.", "Stay connected with loved ones and talk about your feelings.", "Ensure you're getting enough rest and eating well."]
+        },
+        {
+            "intent": "mental_health",
+            "patterns": ["How to improve mental health?", "Tell me about mental health", "Give me mental health tips"],
+            "responses": ["Regular exercise and a balanced diet can improve mental health.", "Practicing mindfulness and meditation helps reduce stress.", "It's important to seek professional help if needed."]
+        },
+        {
+            "intent": "productivity",
+            "patterns": ["How to be productive?", "Give me productivity tips", "Tell me about productivity"],
+            "responses": ["Set clear goals and prioritize your tasks.", "Take regular breaks to avoid burnout.", "Stay organized and manage your time effectively."]
+        }
+    ]
+}
