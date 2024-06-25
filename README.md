@@ -1,8 +1,5 @@
-Sure! I'll add a section to the `README.md` on how to train the chatbot model.
-
 ### Updated `README.md`
 
-```markdown
 # AI and ML Chatbot Project
 
 Welcome to the AI and ML Chatbot Project! This project will guide you through creating a basic chatbot using Python and Flask, with a MongoDB database.
